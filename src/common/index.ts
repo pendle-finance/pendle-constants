@@ -1,1 +1,1 @@
-export {MiscConsts} from "./misc-consts";
+export { MiscConsts } from './misc-consts';

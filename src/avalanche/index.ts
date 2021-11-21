@@ -1,1 +1,1 @@
-export * from "./avax-all-consts";
+export * from './avax-all-consts';
