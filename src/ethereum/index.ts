@@ -1,1 +1,1 @@
-export * from "./eth-all-consts";
+export * from './eth-all-consts';

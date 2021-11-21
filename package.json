@@ -16,11 +16,12 @@
     "start": "tsdx watch",
     "build": "tsdx build",
     "test": "tsdx test",
-    "lint": "tsdx lint",
+    "lint": "tsdx lint src",
     "prepare": "yarn build",
     "size": "size-limit",
     "analyze": "size-limit --why",
-    "postinstall": "install-peers"
+    "postinstall": "install-peers",
+    "format": "yarn prettier --write **/*.{js,ts}"
   },
   "husky": {
     "hooks": {
