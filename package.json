@@ -16,11 +16,12 @@
     "start": "tsdx watch",
     "build": "tsdx build",
     "lint": "tsdx lint src",
-    "prepare": "npm install -g npm-install-peers && npm-install-peers && yarn build",
+    "prepare": "yarn get-rebuild-deps && yarn build",
     "size": "size-limit",
     "analyze": "size-limit --why",
     "postinstall": "install-peers",
-    "format": "yarn prettier --write **/**/*.{js,ts}"
+    "format": "yarn prettier --write **/**/*.{js,ts}",
+    "get-rebuild-deps": "npm install -g npm-install-peers install-peers-cli && npm-install-peers "
   },
   "husky": {
     "hooks": {
