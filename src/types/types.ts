@@ -86,6 +86,7 @@ export interface TraderJoeConstsType {
 export interface WonderlandMoneyConstsType {
   WONDERLAND_STAKING_HELPER: string;
   WONDERLAND_TIME_STAKING: string;
+  FORGE_ID: string;
 }
 
 export interface CommonConstsType {
