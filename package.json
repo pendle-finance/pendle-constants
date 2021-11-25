@@ -16,7 +16,7 @@
     "start": "tsdx watch",
     "build": "tsdx build",
     "lint": "tsdx lint src",
-    "prepare": "yarn build",
+    "prepare": "npm install -g npm-install-peers && npm-install-peers && yarn build",
     "size": "size-limit",
     "analyze": "size-limit --why",
     "postinstall": "install-peers",
