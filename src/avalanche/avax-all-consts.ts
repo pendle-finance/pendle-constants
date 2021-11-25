@@ -25,5 +25,5 @@ export const AvaxConsts: PendleConstsType = {
   kyber: KyberConsts,
   common: AvaxCommonConsts,
   misc: MiscConsts,
-  wonderland: WonderlandMoneyConsts
+  wonderland: WonderlandMoneyConsts,
 };
