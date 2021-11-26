@@ -72,6 +72,6 @@ export const AvaxTokens: TokensConstsType = {
   TIME: {
     address: '0xb54f16fb19478766a268f172c9480f8da1a7c9c3',
     decimal: 9,
-    marketWithNative: "0xf64e1c5B6E17031f5504481Ac8145F4c3eab4917"
+    marketWithNative: '0xf64e1c5B6E17031f5504481Ac8145F4c3eab4917',
   },
 };
