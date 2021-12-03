@@ -25,7 +25,7 @@ export interface PendleConstsType {
   uni?: UniswapConstsType;
   joe?: TraderJoeConstsType;
   benqi?: BenQiConstsType;
-  wonderland?: WonderlandMoneyConstsType;
+  wonderland?: WonderlandConstsType;
   common: CommonConstsType;
   misc: MiscConstsType;
   tokens: TokensConstsType;
@@ -84,9 +84,9 @@ export interface TraderJoeConstsType {
   FORGE_ID_XJOE: string;
 }
 
-export interface WonderlandMoneyConstsType {
-  WONDERLAND_STAKING_HELPER: string;
-  WONDERLAND_TIME_STAKING: string;
+export interface WonderlandConstsType {
+  STAKING_HELPER: string;
+  TIME_STAKING: string;
   FORGE_ID: string;
 }
 
