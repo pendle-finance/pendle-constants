@@ -34,15 +34,15 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "module": "dist/pendle-constants.esm.js",
+  "module": "dist/constants.esm.js",
   "size-limit": [
     {
-      "path": "dist/pendle-constants.cjs.production.min.js",
-      "limit": "15 KB"
+      "path": "dist/constants.cjs.production.min.js",
+      "limit": "10 KB"
     },
     {
-      "path": "dist/pendle-constants.esm.js",
-      "limit": "15 KB"
+      "path": "dist/constants.esm.js",
+      "limit": "10 KB"
     }
   ],
   "devDependencies": {
