@@ -5,6 +5,7 @@ import { AvaxTokens } from './avax-all-tokens';
 import { BenQiConsts } from './benqi-consts';
 import { KyberConsts } from './kyber-consts';
 import { TraderJoeConsts } from './traderjoe-consts';
+import { WonderlandConsts } from './wonderland-consts';
 
 let GOVERNANCE_MULTISIG = '0x2116Ca021e0deB3065946dDE33e6Cb2E783Dc161';
 
@@ -24,4 +25,5 @@ export const AvaxConsts: PendleConstsType = {
   kyber: KyberConsts,
   common: AvaxCommonConsts,
   misc: MiscConsts,
+  wonderland: WonderlandConsts,
 };

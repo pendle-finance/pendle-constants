@@ -7,6 +7,7 @@ export type Erc20Token = {
   benqi?: string;
   source?: string;
   symbol?: string;
+  marketWithNative?: string;
 };
 
 export type LpToken = {
@@ -24,6 +25,7 @@ export interface PendleConstsType {
   uni?: UniswapConstsType;
   joe?: TraderJoeConstsType;
   benqi?: BenQiConstsType;
+  wonderland?: WonderlandConstsType;
   common: CommonConstsType;
   misc: MiscConstsType;
   tokens: TokensConstsType;
@@ -80,6 +82,12 @@ export interface TraderJoeConstsType {
   CODE_HASH: number[];
   PAIR_FACTORY: string;
   FORGE_ID_XJOE: string;
+}
+
+export interface WonderlandConstsType {
+  STAKING_HELPER: string;
+  TIME_STAKING: string;
+  FORGE_ID: string;
 }
 
 export interface CommonConstsType {
@@ -153,4 +161,7 @@ export interface TokensConstsType {
   JOE_PENDLE_AVAX?: LpToken;
   JOE_USDC_AVAX?: LpToken;
   XJOE?: LpToken;
+  MEMO?: Erc20Token;
+  wMEMO?: Erc20Token;
+  TIME?: Erc20Token;
 }

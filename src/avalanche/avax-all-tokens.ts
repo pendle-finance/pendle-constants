@@ -61,4 +61,17 @@ export const AvaxTokens: TokensConstsType = {
   JOE_USDC_AVAX: {
     address: '0xa389f9430876455c36478deea9769b7ca4e3ddb1',
   },
+  MEMO: {
+    address: '0x136acd46c134e8269052c62a67042d6bdedde3c9',
+    decimal: 9,
+  },
+  wMEMO: {
+    address: '0x0da67235dd5787d67955420c84ca1cecd4e5bb3b',
+    decimal: 18,
+  },
+  TIME: {
+    address: '0xb54f16fb19478766a268f172c9480f8da1a7c9c3',
+    decimal: 9,
+    marketWithNative: '0xf64e1c5B6E17031f5504481Ac8145F4c3eab4917',
+  },
 };
