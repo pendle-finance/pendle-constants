@@ -7,7 +7,6 @@ export type Erc20Token = {
   benqi?: string;
   source?: string;
   symbol?: string;
-  marketWithNative?: string;
 };
 
 export type LpToken = {
