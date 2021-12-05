@@ -21,6 +21,7 @@ export const AvaxTokens: TokensConstsType = {
     address: '0xA7D7079b0FEaD91F3e65f86E8915Cb59c1a4C664',
     decimal: 6,
     benqi: '0xBEb5d47A3f720Ec0a390d04b4d41ED7d9688bC7F',
+    source: '0x46a51127c3ce23fb7ab1de06226147f446e4a857',
   },
   DAI: {
     address: '0xd586E7F844cEa2F87f50152665BCbc2C279D8d70',
@@ -33,6 +34,7 @@ export const AvaxTokens: TokensConstsType = {
     address: '0x8729438EB15e2C8B576fCc6AeCdA6A148776C0F5',
     decimal: 18,
     symbol: 'QI',
+    source: '0x23a0620035012a5d31c82c3be824c49c2bbbc21a',
   },
   JOE: {
     address: '0x6e84a6216eA6dACC71eE8E6b0a5B7322EEbC0fDd',
