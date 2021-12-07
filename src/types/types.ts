@@ -70,7 +70,6 @@ export interface UniswapConstsType {
 export interface BenQiConstsType {
   COMPTROLLER: string;
   FORGE_ID: string;
-  MARKET_FACTORY_ID: string;
 }
 
 export interface TraderJoeConstsType {

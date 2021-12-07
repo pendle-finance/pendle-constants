@@ -21,9 +21,9 @@ const AvaxCommonConsts: CommonConstsType = {
 export const AvaxConsts: PendleConstsType = {
   benqi: BenQiConsts,
   joe: TraderJoeConsts,
-  tokens: AvaxTokens,
   kyber: KyberConsts,
+  wonderland: WonderlandConsts,
+  tokens: AvaxTokens,
   common: AvaxCommonConsts,
   misc: MiscConsts,
-  wonderland: WonderlandConsts,
 };
