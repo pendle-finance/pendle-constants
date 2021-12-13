@@ -6,11 +6,15 @@ export const EthTokens: TokensConstsType = {
     address: '0xdac17f958d2ee523a2206206994597c13d831ec7',
     decimal: 6,
     compound: '0xf650c3d88d12db855b8bf7d11be6c55a4e07dcc9',
+    symbol: 'USDT',
+    name: 'Tether USD',
   },
   NATIVE: {
     address: '0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE',
     decimal: 18,
     compound: '0x4ddc2d193948926d02f9b1fe9e1daa0718270ed5',
+    symbol: 'ETH',
+    name: 'Ether',
   },
   WNATIVE: {
     address: '0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2',

@@ -3,6 +3,7 @@ import { CommonConstsType } from '../types';
 import { ONE_DAY, RONE } from './misc-consts';
 
 const OVERRIDEN_STRING = 'TO BE OVERRIDEN';
+const OVERRIDEN_INT = -1;
 
 export const CommonConsts: CommonConstsType = {
   GOVERNANCE_MULTISIG: OVERRIDEN_STRING,
@@ -14,6 +15,7 @@ export const CommonConsts: CommonConstsType = {
   MARKET_EMERGENCY_HANDLER: OVERRIDEN_STRING,
   LIQ_MINING_EMERGENCY_HANDLER: OVERRIDEN_STRING,
   TREASURY_MULTISIG: OVERRIDEN_STRING,
+  CHAIN_ID: OVERRIDEN_INT,
 
   GENERIC_MARKET_FACTORY_ID: utils.formatBytes32String('Generic'),
 

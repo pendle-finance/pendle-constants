@@ -7,6 +7,8 @@ export type Erc20Token = {
   benqi?: string;
   source?: string;
   symbol?: string;
+  name?: string;
+  marketWithNative?: string;
 };
 
 export type LpToken = {
@@ -107,9 +109,10 @@ export interface CommonConstsType {
   MARKET_EMERGENCY_HANDLER: string;
   LIQ_MINING_EMERGENCY_HANDLER: string;
   TREASURY_MULTISIG: string;
-
+  
   LIQ_MINING_EPOCH_DURATION: BN;
   LIQ_MINING_VESTING_EPOCHS: BN;
+  CHAIN_ID: number;
 }
 
 // to be imported separately
