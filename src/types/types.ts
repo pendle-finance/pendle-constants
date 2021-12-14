@@ -16,6 +16,9 @@ export type LpToken = {
   source?: string;
   pid?: number;
   stakeContractAddr?: string;
+  decimal?: number;
+  symbol?: string;
+  name?: string;
 };
 
 export interface PendleConstsType {
