@@ -162,4 +162,5 @@ export interface TokensConstsType {
   MEMO?: Erc20Token;
   wMEMO?: Erc20Token;
   TIME?: Erc20Token;
+  MIM?: Erc20Token;
 }

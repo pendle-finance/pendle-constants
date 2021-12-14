@@ -75,4 +75,8 @@ export const AvaxTokens: TokensConstsType = {
     address: '0xb54f16fb19478766a268f172c9480f8da1a7c9c3',
     decimal: 9,
   },
+  MIM: {
+    address: '0x130966628846bfd36ff31a822705796e8cb8c18d',
+    decimal: 18
+  }
 };
