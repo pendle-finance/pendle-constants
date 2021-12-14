@@ -107,6 +107,8 @@ export const AvaxTokens: TokensConstsType = {
   },
   MIM: {
     address: '0x130966628846bfd36ff31a822705796e8cb8c18d',
-    decimal: 18
+    decimal: 18,
+    symbol: 'MIM',
+    name: 'Magic Internet Money',
   }
 };
