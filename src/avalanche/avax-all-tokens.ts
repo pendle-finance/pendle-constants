@@ -112,5 +112,6 @@ export const AvaxTokens: TokensConstsType = {
     decimal: 18,
     symbol: 'MIM',
     name: 'Magic Internet Money',
+    whale: '0x113f413371fc4cc4c9d6416cf1de9dfd7bf747df'
   }
 };
