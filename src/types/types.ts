@@ -5,7 +5,7 @@ export type Erc20Token = {
   decimal: number;
   compound?: string;
   benqi?: string;
-  source?: string;
+  whale?: string;
   symbol?: string;
   name?: string;
   marketWithNative?: string;
