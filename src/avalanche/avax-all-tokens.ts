@@ -49,7 +49,7 @@ export const AvaxTokens: TokensConstsType = {
     address: '0x6e84a6216eA6dACC71eE8E6b0a5B7322EEbC0fDd',
     decimal: 18,
     symbol: 'JOE',
-    whale: '0x6e84a6216eA6dACC71eE8E6b0a5B7322EEbC0fDd',
+    whale: '0x57319d41f71e81f3c65f2a47ca4e001ebafd4f33',
     name: 'JoeToken',
   },
   JOE_WAVAX_DAI_LP: {
