@@ -17,8 +17,6 @@
     "build": "tsdx build",
     "lint": "tsdx lint src",
     "prepare": "yarn build",
-    "size": "size-limit",
-    "analyze": "size-limit --why",
     "format": "yarn prettier --write **/**/*.{js,ts}"
   },
   "husky": {
@@ -33,20 +31,8 @@
     "trailingComma": "es5"
   },
   "module": "dist/constants.esm.js",
-  "size-limit": [
-    {
-      "path": "dist/constants.cjs.production.min.js",
-      "limit": "10 KB"
-    },
-    {
-      "path": "dist/constants.esm.js",
-      "limit": "10 KB"
-    }
-  ],
   "devDependencies": {
-    "@size-limit/preset-small-lib": "^7.0.3",
     "husky": "^7.0.4",
-    "size-limit": "^7.0.3",
     "tsdx": "^0.14.1",
     "tslib": "^2.3.1",
     "typescript": "^4.5.2"
