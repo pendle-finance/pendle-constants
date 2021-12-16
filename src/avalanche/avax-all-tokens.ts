@@ -49,7 +49,7 @@ export const AvaxTokens: TokensConstsType = {
     address: '0x6e84a6216eA6dACC71eE8E6b0a5B7322EEbC0fDd',
     decimal: 18,
     symbol: 'JOE',
-    whale: '0x57319d41f71e81f3c65f2a47ca4e001ebafd4f33',
+    whale: '0x66fb02746d72bc640643fdba3aefe9c126f0aa4f',
     name: 'JoeToken',
   },
   JOE_WAVAX_DAI_LP: {
@@ -65,7 +65,7 @@ export const AvaxTokens: TokensConstsType = {
     symbol: 'PENDLE',
     decimal: 18,
     name: 'Pendle',
-    whale: '0x82922e6fbe83547c5e2e0229815942a2108e4624'
+    whale: '0x5fa58f29c6138c07c2f9e9d0066f774a7ca3b7df' // PENDLE's multisig
   },
   XJOE: {
     address: '0x57319d41F71E81F3c65F2a47CA4e001EbAFd4F33',
