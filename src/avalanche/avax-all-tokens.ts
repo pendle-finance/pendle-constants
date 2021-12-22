@@ -78,14 +78,14 @@ export const AvaxTokens: TokensConstsType = {
   JOE_PENDLE_AVAX: {
     address: '0x3acD2FF1c3450bc8a9765AfD8d0DeA8E40822c86',
     decimal: 18,
-    symbol: 'Joe LP Token',
-    name: 'JLP',
+    symbol: 'JLP',
+    name: 'Joe LP Token',
   },
   JOE_USDC_AVAX: {
     address: '0xa389f9430876455c36478deea9769b7ca4e3ddb1',
     decimal: 18,
-    symbol: 'Joe LP Token',
-    name: 'JLP',
+    symbol: 'JLP',
+    name: 'Joe LP Token',
   },
   MEMO: {
     address: '0x136acd46c134e8269052c62a67042d6bdedde3c9',
