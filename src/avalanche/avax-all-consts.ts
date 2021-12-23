@@ -7,7 +7,7 @@ import { KyberConsts } from './kyber-consts';
 import { TraderJoeConsts } from './traderjoe-consts';
 import { WonderlandConsts } from './wonderland-consts';
 
-let GOVERNANCE_MULTISIG = '0x2116Ca021e0deB3065946dDE33e6Cb2E783Dc161';
+let GOVERNANCE_MULTISIG = '0xe6e173d7743edc58a8141CFB0490312f570147FA';
 
 const AvaxCommonConsts: CommonConstsType = {
   ...CommonConsts,
