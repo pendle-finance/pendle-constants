@@ -1,5 +1,6 @@
 import { TokensConstsType } from '../types';
 import { TraderJoeConsts } from './traderjoe-consts';
+import { MiscConsts } from '../common';
 
 export const AvaxTokens: TokensConstsType = {
   USDT: {
@@ -80,6 +81,7 @@ export const AvaxTokens: TokensConstsType = {
     decimal: 18,
     symbol: 'JLP',
     name: 'Joe LP Token',
+    whale: '0xEBf919b0DAfb9ea4BF324108A142C64A69052D8f',
   },
   JOE_USDC_AVAX: {
     address: '0xa389f9430876455c36478deea9769b7ca4e3ddb1',
@@ -113,5 +115,87 @@ export const AvaxTokens: TokensConstsType = {
     symbol: 'MIM',
     name: 'Magic Internet Money',
     whale: '0x113f413371fc4cc4c9d6416cf1de9dfd7bf747df'
+  },
+  QIUSDC: {
+    address: '0xBEb5d47A3f720Ec0a390d04b4d41ED7d9688bC7F',
+    decimal: 8,
+    symbol: 'qiUSDC',
+    name: 'Benqi USDC',
+  },
+  QIAVAX: {
+    address: '0x5C0401e81Bc07Ca70fAD469b451682c0d747Ef1c',
+    decimal: 8,
+    symbol: 'qiAVAX',
+    name: 'Benqi AVAX',
+  },
+  OT_BENQI_USDC_28DEC2023: {
+    address: '0xfffe5fc3e511ce11df20684aec435a3e2b7d8136',
+    decimal: 6,
+    symbol: 'OT-qiUSDC-28DEC2023',
+    name: 'OT Benqi USDC 28DEC2023',
+    expiry: MiscConsts.END_OF_2023,
+  },
+  YT_BENQI_USDC_28DEC2023: {
+    address: '0x41e8e841f3c9fe666921eda128ca8e2b143eb136',
+    decimal: 6,
+    symbol: 'YT-qiUSDC-28DEC2023',
+    name: 'YT Benqi USDC 28DEC2023',
+    expiry: MiscConsts.END_OF_2023,
+  },
+  OT_BENQI_AVAX_28DEC2023: {
+    address: '0xecc5748b1ff6b23f284ec81e8bf034409961d8dc',
+    decimal: 18,
+    symbol: 'OT-qiAVAX-28DEC2023',
+    name: 'OT Benqi AVAX 28DEC2023',
+    expiry: MiscConsts.END_OF_2023,
+  },
+  YT_BENQI_AVAX_28DEC2023: {
+    address: '0x30a6f8949d4ce66918f393318d5f9d3bd1304461',
+    decimal: 18,
+    symbol: 'YT-qiAVAX-28DEC2023',
+    name: 'YT Benqi AVAX 28DEC2023',
+    expiry: MiscConsts.END_OF_2023,
+  },
+  OT_JOE_PENDLE_AVAX_28DEC2023: {
+    address: '0xabced2a62fd308bd1b98085c13df74b685140c0b',
+    decimal: 18,
+    symbol: 'OT-JLP-28DEC2023',
+    name: 'OT Joe LP Token 28DEC2023',
+    expiry: MiscConsts.END_OF_2023,
+  },
+  YT_JOE_PENDLE_AVAX_28DEC2023: {
+    address: '0x654e4fbad01cb0f483069714ecc53ac87a895716',
+    decimal: 18,
+    symbol: 'YT-JLP-28DEC2023',
+    name: 'YT Joe LP Token 28DEC2023',
+    expiry: MiscConsts.END_OF_2023,
+  },
+  OT_XJOE_30JUN2022: {
+    address: '0x7d1e8650abd5f8363d63dc7ab838cec8c726dd38',
+    decimal: 18,
+    symbol: 'OT-xJOE-30JUN2022',
+    name: 'OT JoeBar 30JUN2022',
+    expiry: MiscConsts.JUNE_OF_2022,
+  },
+  YT_XJOE_30JUN2022: {
+    address: '0xd36a5269ee4621a8b6985f999e6a1f228e1b7737',
+    decimal: 18,
+    symbol: 'YT-xJOE-30JUN2022',
+    name: 'YT JoeBar 30JUN2022',
+    expiry: MiscConsts.JUNE_OF_2022,
+  },
+  OT_WMEMO_24FEB2022: {
+    address: '0xb7e446ff1a2eeea8cd07331c7e06b0276d0b06b7',
+    decimal: 9,
+    symbol: 'OT-wMEMO-24FEB2022',
+    name: 'OT Wrapped MEMO 24FEB2022',
+    expiry: MiscConsts.FEB_OF_2022,
+  },
+  YT_WMEMO_24FEB2022: {
+    address: '0xceb4181f8e80837437a0a2dd4d97e5688471c4b3',
+    decimal: 9,
+    symbol: 'YT-wMEMO-24FEB2022',
+    name: 'YT Wrapped MEMO 24FEB2022',
+    expiry: MiscConsts.FEB_OF_2022,
   }
 };

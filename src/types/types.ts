@@ -19,7 +19,20 @@ export type LpToken = {
   decimal?: number;
   symbol?: string;
   name?: string;
+  whale?: string;
 };
+
+export type OtYtToken = {
+  address: string;
+  decimal: number;
+  expiry: BN;
+  compound?: string;
+  benqi?: string;
+  whale?: string;
+  symbol?: string;
+  name?: string;
+  marketWithNative?: string;
+}
 
 export interface PendleConstsType {
   aave?: AaveConstsType;
@@ -139,9 +152,12 @@ export interface MiscConstsType {
   ONE_QUARTER: BN;
   ONE_YEAR: BN;
 
-  END_OF_2023: BN;
+  END_OF_2021: BN;
+  FEB_OF_2022: BN;
   JUNE_OF_2022: BN;
-
+  END_OF_2022: BN;
+  
+  END_OF_2023: BN;
   SUM_ALLOC_LIQ_YT: BN;
   USDT_OWNER_ON_ETH: string;
 }
@@ -160,6 +176,20 @@ export interface TokensConstsType {
   SUSHI_USDT_WETH_LP?: LpToken;
   UNI_USDT_WETH_LP?: LpToken;
   KYBER_USDT_WETH_LP?: LpToken;
+  SUSHI_PENDLE_WETH_LP?: LpToken;
+  SUSHI_USDC_WETH_LP?: LpToken;
+  OT_AAVE_USDC_30DEC2021?: OtYtToken;
+  YT_AAVE_USDC_30DEC2021?: OtYtToken;
+  OT_AAVE_USDC_29DEC2022?: OtYtToken;
+  YT_AAVE_USDC_29DEC2022?: OtYtToken;
+  OT_COMPOUND_DAI_30DEC2021?: OtYtToken;
+  YT_COMPOUND_DAI_30DEC2021?: OtYtToken;
+  OT_COMPOUND_DAI_29DEC2022?: OtYtToken;
+  YT_COMPOUND_DAI_29DEC2022?: OtYtToken;
+  OT_SUSHI_PENDLE_ETH_29DEC2022?: OtYtToken;
+  YT_SUSHI_PENDLE_ETH_29DEC2022?: OtYtToken;
+  OT_SUSHI_USDC_ETH_29DEC2022?: OtYtToken;
+  YT_SUSHI_USDC_ETH_29DEC2022?: OtYtToken;
   JOE?: Erc20Token;
   QI?: Erc20Token;
   JOE_WAVAX_DAI_LP?: LpToken;
@@ -170,4 +200,16 @@ export interface TokensConstsType {
   wMEMO?: Erc20Token;
   TIME?: Erc20Token;
   MIM?: Erc20Token;
+  QIUSDC?: Erc20Token;
+  QIAVAX?: Erc20Token;
+  OT_BENQI_USDC_28DEC2023?: OtYtToken;
+  YT_BENQI_USDC_28DEC2023?: OtYtToken;
+  OT_BENQI_AVAX_28DEC2023?: OtYtToken;
+  YT_BENQI_AVAX_28DEC2023?: OtYtToken;
+  OT_JOE_PENDLE_AVAX_28DEC2023?: OtYtToken;
+  YT_JOE_PENDLE_AVAX_28DEC2023?: OtYtToken;
+  OT_XJOE_30JUN2022?: OtYtToken;
+  YT_XJOE_30JUN2022?: OtYtToken;
+  OT_WMEMO_24FEB2022?: OtYtToken;
+  YT_WMEMO_24FEB2022?: OtYtToken;
 }

@@ -1,5 +1,6 @@
 import { TokensConstsType } from '../types';
 import { SushiswapConsts } from './sushiswap-consts';
+import { MiscConsts } from '../common';
 
 export const EthTokens: TokensConstsType = {
   USDT: {
@@ -81,5 +82,102 @@ export const EthTokens: TokensConstsType = {
     decimal: 18,
     symbol: 'PENDLE',
     name: 'Pendle',
+  },
+  SUSHI_PENDLE_WETH_LP: {
+    address: '0x37922c69b08babcceae735a31235c81f1d1e8e43',
+    decimal: 18,
+    symbol: 'SLP',
+    name: 'SushiSwap LP Token',
+    whale: '0x5fA58f29c6138C07C2F9E9D0066F774a7CA3b7DF',
+  },
+  SUSHI_USDC_WETH_LP: {
+    address: '0x397ff1542f962076d0bfe58ea045ffa2d347aca0',
+    decimal: 18,
+    symbol: 'SLP',
+    name: 'SushiSwap LP Token',
+  },
+  OT_AAVE_USDC_30DEC2021: {
+    address: '0x010a0288af52ed61e32674d82bbc7ddbfa9a1324',
+    decimal: 6,
+    symbol: 'OT-aUSDC-30DEC2021',
+    name: 'OT Aave interest bearing USDC 30DEC2021',
+    expiry: MiscConsts.END_OF_2021,
+  },
+  YT_AAVE_USDC_30DEC2021: {
+    address: '0xFfAf22DB1ff7e4983b57Ca9632f796f68EdedeF9',
+    decimal: 6,
+    symbol: 'YT-aUSDC-30DEC2021',
+    name: 'YT Aave interest bearing USDC 30DEC2021',
+    expiry: MiscConsts.END_OF_2021,
+  },
+  OT_AAVE_USDC_29DEC2022: {
+    address: '0x8fcb1783bF4b71A51F702aF0c266729C4592204a',
+    decimal: 6,
+    symbol: 'OT-aUSDC-29DEC2022',
+    name: 'OT Aave interest bearing USDC 30DEC2021',
+    expiry: MiscConsts.END_OF_2022,
+  },
+  YT_AAVE_USDC_29DEC2022: {
+    address: '0xcDb5b940E95C8632dEcDc806B90dD3fC44E699fE',
+    decimal: 6,
+    symbol: 'YT-aUSDC-29DEC2022',
+    name: 'YT Aave interest bearing USDC 30DEC2021',
+    expiry: MiscConsts.END_OF_2022,
+  },
+  OT_COMPOUND_DAI_30DEC2021: {
+    address: '0xe55e3b62005a2035d48ac0c41a5a9c799f04892c',
+    decimal: 18,
+    symbol: 'OT-cDAI-30DEC2021',
+    name: 'OT Compound Dai 30DEC2021',
+    expiry: MiscConsts.END_OF_2021,
+  },
+  YT_COMPOUND_DAI_30DEC2021: {
+    address: '0x31654eb46a3a450265c6dfc4fc4fbbfe371e26fe',
+    decimal: 18,
+    symbol: 'YT-cDAI-30DEC2021',
+    name: 'YT Compound Dai 30DEC2021',
+    expiry: MiscConsts.END_OF_2021,
+  },
+  OT_COMPOUND_DAI_29DEC2022: {
+    address: '0x3D4e7F52efaFb9E0C70179B688FC3965a75BCfEa',
+    decimal: 18,
+    symbol: 'OT-cDAI-29DEC2022',
+    name: 'OT Compound Dai 29DEC2022',
+    expiry: MiscConsts.END_OF_2022,
+  },
+  YT_COMPOUND_DAI_29DEC2022: {
+    address: '0xb7deFe73528942793649c0A950Ec528f66159047',
+    decimal: 18,
+    symbol: 'YT-cDAI-29DEC2022',
+    name: 'YT Compound Dai 29DEC2022',
+    expiry: MiscConsts.END_OF_2022,
+  },
+  OT_SUSHI_PENDLE_ETH_29DEC2022: {
+    address: '0xbF682bd31a615123D28d611b38b0aE3d2b675C2C',
+    decimal: 18,
+    symbol: 'OT-SLP-29DEC2022',
+    name: 'OT SushiSwap LP Token 29DEC2022',
+    expiry: MiscConsts.END_OF_2022,
+  },
+  YT_SUSHI_PENDLE_ETH_29DEC2022: {
+    address: '0x49c8aC20dE6409c7e0B8f9867cffD1481D8206c6',
+    decimal: 18,
+    symbol: 'YT-SLP-29DEC2022',
+    name: 'YT SushiSwap LP Token 29DEC2022',
+    expiry: MiscConsts.END_OF_2022,
+  },
+  OT_SUSHI_USDC_ETH_29DEC2022: {
+    address: '0x322D6c69048330247165231EB7848A5C80a48878',
+    decimal: 18,
+    symbol: 'OT-SLP-29DEC2022',
+    name: 'OT SushiSwap LP Token 29DEC2022',
+    expiry: MiscConsts.END_OF_2022,
+  },
+  YT_SUSHI_USDC_ETH_29DEC2022: {
+    address: '0x311FCB5dB45A3a5876975f8108237F20525Fa7e0',
+    decimal: 18,
+    symbol: 'YT-SLP-29DEC2022',
+    name: 'YT SushiSwap LP Token 29DEC2022',
+    expiry: MiscConsts.END_OF_2022,
   },
 };

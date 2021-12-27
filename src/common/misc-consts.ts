@@ -25,7 +25,10 @@ export const MiscConsts: MiscConstsType = {
   SIX_MONTH: BN.from(2592000 * 6),
   ONE_QUARTER: BN.from(7884000),
   ONE_YEAR: BN.from(31536000),
-  END_OF_2023: BN.from(1703721600),
+  END_OF_2021: BN.from(1640822400),
+  FEB_OF_2022: BN.from(1645660800),
   JUNE_OF_2022: BN.from(1656547200),
+  END_OF_2022: BN.from(1672272000),
+  END_OF_2023: BN.from(1703721600),
   SUM_ALLOC_LIQ_YT: BN.from(10).pow(9),
 };
