@@ -49,7 +49,7 @@ export const AvaxTokens: TokensConstsType = {
     address: '0x6e84a6216eA6dACC71eE8E6b0a5B7322EEbC0fDd',
     decimal: 18,
     symbol: 'JOE',
-    whale: '0x66fb02746d72bc640643fdba3aefe9c126f0aa4f',
+    whale: '0xd858ebaa943b4c2fb06ba0ba8920a132fd2410ee',
     name: 'JoeToken',
   },
   JOE_WAVAX_DAI_LP: {
@@ -88,14 +88,14 @@ export const AvaxTokens: TokensConstsType = {
     name: 'Joe LP Token',
   },
   MEMO: {
-    address: '0x136acd46c134e8269052c62a67042d6bdedde3c9',
+    address: '0x136Acd46C134E8269052c62A67042D6bDeDde3C9',
     decimal: 9,
     symbol: 'MEMO',
     name: 'MEMOries',
     whale: '0x4456b87af11e87e329ab7d7c7a246ed1ac2168b9'
   },
   wMEMO: {
-    address: '0x0da67235dd5787d67955420c84ca1cecd4e5bb3b',
+    address: '0x0da67235dD5787D67955420C84ca1cEcd4E5Bb3b',
     decimal: 18,
     symbol: 'wMEMO',
     name: 'Wrapped MEMO',
