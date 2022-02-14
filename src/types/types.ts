@@ -93,6 +93,12 @@ export interface WonderlandConstsType {
   FORGE_ID: string;
 }
 
+export interface RedactedConstsType {
+  STAKING_HELPER: string;
+  BTRFLY_STAKING: string;
+  FORGE_ID: string;
+}
+
 export interface CommonConstsType {
   FORGE_FEE: BN;
   SWAP_FEE: BN;
@@ -113,7 +119,7 @@ export interface CommonConstsType {
   LIQ_MINING_EMERGENCY_HANDLER: string;
   TREASURY_MULTISIG: string;
   MULTICALL_V2: string;
-  
+
   LIQ_MINING_EPOCH_DURATION: BN;
   LIQ_MINING_VESTING_EPOCHS: BN;
   CHAIN_ID: number;
@@ -170,4 +176,7 @@ export interface TokensConstsType {
   wMEMO?: Erc20Token;
   TIME?: Erc20Token;
   MIM?: Erc20Token;
+  BTRFLY?: Erc20Token;
+  xBTRFLY?: Erc20Token;
+  wxBTRFLY?: Erc20Token;
 }
