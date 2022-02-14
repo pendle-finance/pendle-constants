@@ -82,4 +82,24 @@ export const EthTokens: TokensConstsType = {
     symbol: 'PENDLE',
     name: 'Pendle',
   },
+  BTRFLY: {
+    address: '0xc0d4ceb216b3ba9c3701b291766fdcba977cec3a',
+    decimal: 9,
+    symbol: 'BTRFLY',
+    name: 'BTRFLY',
+    whale: '0xbde4dfb0dbb0dd8833efb6c5bd0ce048c852c487',
+  },
+  xBTRFLY: {
+    address: '0xCC94Faf235cC5D3Bf4bEd3a30db5984306c86aBC',
+    decimal: 9,
+    symbol: 'xBTRFLY',
+    name: 'xBTRFLY',
+    whale: '0xbde4dfb0dbb0dd8833efb6c5bd0ce048c852c487',
+  },
+  wxBTRFLY: {
+    address: '0x4B16d95dDF1AE4Fe8227ed7B7E80CF13275e61c9',
+    decimal: 18,
+    symbol: 'wxBTRFLY',
+    name: 'wxBTRFLY',
+  },
 };
