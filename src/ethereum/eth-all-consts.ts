@@ -7,6 +7,7 @@ import { EthTokens } from './eth-all-tokens';
 import { SushiswapConsts } from './sushiswap-consts';
 import { UniswapConsts } from './uniswap-consts';
 import { CommonConsts } from '../common/common-consts';
+import { RedactedConsts } from './redacted-consts';
 
 const GOVERNANCE_MULTISIG = '0x8119ec16f0573b7dac7c0cb94eb504fb32456ee1';
 const EthCommonConsts: CommonConstsType = {
@@ -30,6 +31,7 @@ export const EthConsts: PendleConstsType = {
   sushi: SushiswapConsts,
   uni: UniswapConsts,
   kyber: KyberConsts,
+  redacted: RedactedConsts,
   tokens: EthTokens,
   common: EthCommonConsts,
   misc: MiscConsts,
