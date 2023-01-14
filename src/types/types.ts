@@ -181,3 +181,25 @@ export interface TokensConstsType {
   xBTRFLY?: Erc20Token;
   wxBTRFLY?: Erc20Token;
 }
+
+export interface V2MarketConstsType {
+  name: string;
+  SY: string;
+  YT: string;
+  PT: string;
+  underlying: string;
+  market: string;
+  expiry: BN;
+  bulkSeller?: string;
+  scalarRoot?: BN;
+  initAnchor?: BN;
+}
+
+export interface AllV2MarketConstsType {
+  apeJun29?: V2MarketConstsType;
+  fraxUSDCCurveLpConvexMar30?: V2MarketConstsType;
+  looksStakingMar30?: V2MarketConstsType;
+  rethWethBalancerLPAuraDec28?: V2MarketConstsType;
+  stethJun29?: V2MarketConstsType;
+  stethMar30?: V2MarketConstsType;
+}
