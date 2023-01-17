@@ -11,7 +11,4 @@ export const StethMar30Consts: StethMarketConstsType = {
     expiry: BN.from(1680134400),
     scalarRoot: BN.from(31400000000000000000),
     initAnchor: BN.from(1020480000000000000),
-    WETH: "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-    STETH: "0xae7ab96520DE3A18E5e111B5EaAb095312D7fE84",
-    WSTETH: "0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0",
 }

@@ -102,4 +102,70 @@ export const EthTokens: TokensConstsType = {
     symbol: 'wxBTRFLY',
     name: 'wxBTRFLY',
   },
+  APE: {
+    address: '0x4d224452801ACEd8B2F0aebE155379bb5D594381',
+    decimal: 18,
+    symbol: 'APE',
+    name: 'ApeCoin',
+  },
+  CRV: {
+    address: '0xD533a949740bb3306d119CC777fa900bA034cd52',
+    decimal: 18,
+    symbol: 'CRV',
+    name: 'Curve DAO Token'
+  },
+  CVX: {
+    address: '0x4e3FBD56CD56c3e72c1403e103b45Db9da5B9D2B',
+    decimal: 18,
+    symbol: 'CVX',
+    name: 'Convex Token'
+  },
+  FRAX: {
+    address: '0x853d955aCEf822Db058eb8505911ED77F175b99e',
+    decimal: 18,
+    symbol: 'FRAX',
+    name: 'Frax'
+  },
+  LOOKS: {
+    address: '0xf4d2888d29D722226FafA5d9B24F9164c092421E',
+    decimal: 18,
+    symbol: 'LOOKS',
+    name: 'LooksRare Token'
+  },
+  RETH: {
+    address: '0xae78736Cd615f374D3085123A210448E74Fc6393',
+    decimal: 18,
+    symbol: 'rETH',
+    name: 'Rocket Pool ETH'
+  },
+  WETH: {
+    address: '0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2',
+    decimal: 18,
+    symbol: 'WETH',
+    name: 'Wrapped Ether'
+  },
+  AURA: {
+    address: '0xC0c293ce456fF0ED870ADd98a0828Dd4d2903DBF',
+    decimal: 18,
+    symbol: 'AURA',
+    name: 'Aura'
+  },
+  BAL: {
+    address: '0xba100000625a3754423978a60c9317c58a424e3D',
+    decimal: 18,
+    symbol: 'BAL',
+    name: 'Balancer'
+  },
+  STETH: {
+    address: '0xae7ab96520DE3A18E5e111B5EaAb095312D7fE84',
+    decimal: 18,
+    symbol: 'stETH',
+    name: 'Liquid staked Ether 2.0'
+  },
+  WSTETH: {
+    address: '0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0',
+    decimal: 18,
+    symbol: 'wstETH',
+    name: 'Wrapped liquid staked Ether 2.0'
+  },
 };
