@@ -195,11 +195,49 @@ export interface V2MarketConstsType {
   initAnchor?: BN;
 }
 
+export interface ApeMarketConstsType extends V2MarketConstsType {
+  APE_COIN: string;
+  APE_STAKING: string;
+}
+
+export interface FraxUSDCCurveLpConvexMarketConstsType extends V2MarketConstsType {
+  BOOSTER: string;
+  CRV: string;
+  CVX: string;
+  FRAX: string;
+  USDC: string;
+  CRV_LP: string;
+  CRV_POOL: string;
+  CVX_REWARD_MANAGER: string;
+}
+
+export interface LooksStakingMarketConstsType extends V2MarketConstsType {
+  LOOKS: string;
+  STAKING_CONTRACT: string;
+}
+
+export interface RethWethBalancerLPAuraMarketConstsType extends V2MarketConstsType {
+  AURA_BOOSTER: string;
+  AURA_TOKEN: string;
+  BALANCER_VAULT: string;
+  BAL_TOKEN: string;
+  RETH: string;
+  WETH: string;
+  AURA_REWARD_MANAGER: string;
+  BAL_LP: string;
+}
+
+export interface StethMarketConstsType extends V2MarketConstsType {
+  WETH: string;
+  STETH: string;
+  WSTETH: string;
+}
+
 export interface AllV2MarketConstsType {
-  apeJun29?: V2MarketConstsType;
-  fraxUSDCCurveLpConvexMar30?: V2MarketConstsType;
-  looksStakingMar30?: V2MarketConstsType;
-  rethWethBalancerLPAuraDec28?: V2MarketConstsType;
-  stethJun29?: V2MarketConstsType;
-  stethMar30?: V2MarketConstsType;
+  apeJun29?: ApeMarketConstsType;
+  fraxUSDCCurveLpConvexMar30?: FraxUSDCCurveLpConvexMarketConstsType;
+  looksStakingMar30?: LooksStakingMarketConstsType;
+  rethWethBalancerLPAuraDec28?: RethWethBalancerLPAuraMarketConstsType;
+  stethJun29?: StethMarketConstsType;
+  stethMar30?: StethMarketConstsType;
 }
