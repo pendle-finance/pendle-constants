@@ -180,6 +180,17 @@ export interface TokensConstsType {
   BTRFLY?: Erc20Token;
   xBTRFLY?: Erc20Token;
   wxBTRFLY?: Erc20Token;
+  APE?: Erc20Token;
+  CRV?: Erc20Token;
+  CVX?: Erc20Token;
+  FRAX?: Erc20Token;
+  LOOKS?: Erc20Token;
+  RETH?: Erc20Token;
+  WETH?: Erc20Token;
+  AURA?: Erc20Token;
+  BAL?: Erc20Token;
+  STETH?: Erc20Token;
+  WSTETH?: Erc20Token;
 }
 
 export interface V2MarketConstsType {
@@ -196,23 +207,17 @@ export interface V2MarketConstsType {
 }
 
 export interface ApeMarketConstsType extends V2MarketConstsType {
-  APE_COIN: string;
   APE_STAKING: string;
 }
 
 export interface FraxUSDCCurveLpConvexMarketConstsType extends V2MarketConstsType {
   BOOSTER: string;
-  CRV: string;
-  CVX: string;
-  FRAX: string;
-  USDC: string;
   CRV_LP: string;
   CRV_POOL: string;
   CVX_REWARD_MANAGER: string;
 }
 
 export interface LooksStakingMarketConstsType extends V2MarketConstsType {
-  LOOKS: string;
   STAKING_CONTRACT: string;
 }
 
@@ -220,17 +225,11 @@ export interface RethWethBalancerLPAuraMarketConstsType extends V2MarketConstsTy
   AURA_BOOSTER: string;
   AURA_TOKEN: string;
   BALANCER_VAULT: string;
-  BAL_TOKEN: string;
-  RETH: string;
-  WETH: string;
   AURA_REWARD_MANAGER: string;
   BAL_LP: string;
 }
 
 export interface StethMarketConstsType extends V2MarketConstsType {
-  WETH: string;
-  STETH: string;
-  WSTETH: string;
 }
 
 export interface AllV2MarketConstsType {
