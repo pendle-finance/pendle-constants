@@ -210,7 +210,8 @@ export interface ApeMarketConstsType extends V2MarketConstsType {
   APE_STAKING: string;
 }
 
-export interface FraxUSDCCurveLpConvexMarketConstsType extends V2MarketConstsType {
+export interface FraxUSDCCurveLpConvexMarketConstsType
+  extends V2MarketConstsType {
   BOOSTER: string;
   CRV_LP: string;
   CRV_POOL: string;
@@ -221,7 +222,8 @@ export interface LooksStakingMarketConstsType extends V2MarketConstsType {
   STAKING_CONTRACT: string;
 }
 
-export interface RethWethBalancerLPAuraMarketConstsType extends V2MarketConstsType {
+export interface RethWethBalancerLPAuraMarketConstsType
+  extends V2MarketConstsType {
   AURA_BOOSTER: string;
   AURA_TOKEN: string;
   BALANCER_VAULT: string;
@@ -229,8 +231,7 @@ export interface RethWethBalancerLPAuraMarketConstsType extends V2MarketConstsTy
   BAL_LP: string;
 }
 
-export interface StethMarketConstsType extends V2MarketConstsType {
-}
+export interface StethMarketConstsType extends V2MarketConstsType {}
 
 export interface AllV2MarketConstsType {
   apeJun29?: ApeMarketConstsType;
