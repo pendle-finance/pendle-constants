@@ -1,3 +1,1 @@
-export * from './markets';
-export * from './tokens';
-export * from './protocol';
+export {EthV2} from './main';
