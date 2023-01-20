@@ -1,6 +1,5 @@
 import { BigNumber as BN } from 'ethers';
 
-
 // to be imported separately
 export interface V2MarketConstsType {
   name: string;

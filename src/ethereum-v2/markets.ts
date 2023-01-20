@@ -13,4 +13,3 @@ export const EthV2Markets = {
   stethJun29: StethJun29Consts,
   stethMar30: StethMar30Consts,
 };
-
