@@ -1,5 +1,5 @@
 import { BigNumber as BN } from 'ethers';
-import { LooksStakingMarketConstsType } from '../types';
+import { LooksStakingMarketConstsType } from '../../types';
 
 export const LooksStakingMar30Consts: LooksStakingMarketConstsType = {
   name: 'SY LOOKS Staking',

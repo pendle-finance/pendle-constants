@@ -1,5 +1,5 @@
 import { BigNumber as BN } from 'ethers';
-import { FraxUSDCCurveLpConvexMarketConstsType } from '../types';
+import { FraxUSDCCurveLpConvexMarketConstsType } from '../../types';
 
 export const FraxUSDCCurveLpConvexMar30Consts: FraxUSDCCurveLpConvexMarketConstsType = {
   name: 'SY FRAXUSDC_CurveLP Convex',

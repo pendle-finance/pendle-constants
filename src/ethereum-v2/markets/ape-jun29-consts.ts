@@ -1,5 +1,5 @@
 import { BigNumber as BN } from 'ethers';
-import { ApeMarketConstsType } from '../types';
+import { ApeMarketConstsType } from '../../types';
 
 export const ApeJun29Consts: ApeMarketConstsType = {
   name: 'sAPE',
@@ -10,4 +10,6 @@ export const ApeJun29Consts: ApeMarketConstsType = {
   market: '0x9A76925dD91A7561b58D8353f0bcE4DF1e517aBb',
   expiry: BN.from(1687996800),
   APE_STAKING: '0x5954aB967Bc958940b7EB73ee84797Dc8a2AFbb9',
+  initAnchor: BN.from("1969700000000000000"),
+  scalarRoot: BN.from("810000000000000000")
 };

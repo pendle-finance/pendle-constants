@@ -1,4 +1,2 @@
-export * from './ethereum/';
-export * from './avalanche/';
-export * from './common/';
-export * from './types';
+export * from './ethereum-v2/';
+export * from './misc-consts';

@@ -1,5 +1,5 @@
 import { BigNumber as BN } from 'ethers';
-import { StethMarketConstsType } from '../types';
+import { StethMarketConstsType } from '../../types';
 
 export const StethMar30Consts: StethMarketConstsType = {
   name: 'SY stETH',
