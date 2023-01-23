@@ -65,7 +65,7 @@ export const AvaxTokens: TokensConstsType = {
     symbol: 'PENDLE',
     decimal: 18,
     name: 'Pendle',
-    whale: '0x5fa58f29c6138c07c2f9e9d0066f774a7ca3b7df' // PENDLE's multisig
+    whale: '0x5fa58f29c6138c07c2f9e9d0066f774a7ca3b7df', // PENDLE's multisig
   },
   XJOE: {
     address: '0x57319d41F71E81F3c65F2a47CA4e001EbAFd4F33',
@@ -92,7 +92,7 @@ export const AvaxTokens: TokensConstsType = {
     decimal: 9,
     symbol: 'MEMO',
     name: 'MEMOries',
-    whale: '0x4456b87af11e87e329ab7d7c7a246ed1ac2168b9'
+    whale: '0x4456b87af11e87e329ab7d7c7a246ed1ac2168b9',
   },
   wMEMO: {
     address: '0x0da67235dD5787D67955420C84ca1cEcd4E5Bb3b',
@@ -105,13 +105,13 @@ export const AvaxTokens: TokensConstsType = {
     decimal: 9,
     symbol: 'TIME',
     name: 'Time',
-    whale: '0x4456b87af11e87e329ab7d7c7a246ed1ac2168b9'
+    whale: '0x4456b87af11e87e329ab7d7c7a246ed1ac2168b9',
   },
   MIM: {
     address: '0x130966628846bfd36ff31a822705796e8cb8c18d',
     decimal: 18,
     symbol: 'MIM',
     name: 'Magic Internet Money',
-    whale: '0x113f413371fc4cc4c9d6416cf1de9dfd7bf747df'
-  }
+    whale: '0x113f413371fc4cc4c9d6416cf1de9dfd7bf747df',
+  },
 };

@@ -1,1 +1,1 @@
-export {EthV2} from './main';
+export { EthV2 } from './main';

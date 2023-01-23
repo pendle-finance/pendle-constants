@@ -32,5 +32,5 @@ export const EthConsts: PendleConstsType = {
   kyber: KyberConsts,
   redacted: RedactedConsts,
   tokens: EthTokens,
-  common: EthCommonConsts
+  common: EthCommonConsts,
 };
