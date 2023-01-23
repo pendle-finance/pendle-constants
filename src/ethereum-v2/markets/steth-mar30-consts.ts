@@ -8,7 +8,7 @@ export const StethMar30Consts: StethMarketConstsType = {
   PT: '0xcf44E8402a99Db82d2AccCC4d9354657Be2121Db',
   market: '0x54E28e62Ea9E8D755DC6e74674eAbE2aBfdB004E',
   underlying: '0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0',
-  expiry: BN.from(1680134400),
-  scalarRoot: BN.from(31400000000000000000),
-  initAnchor: BN.from(1020480000000000000),
+  expiry: BN.from('1680134400'),
+  scalarRoot: BN.from('31400000000000000000'),
+  initAnchor: BN.from('1020480000000000000'),
 };
