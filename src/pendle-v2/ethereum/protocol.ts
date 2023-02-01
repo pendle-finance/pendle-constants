@@ -25,4 +25,5 @@ export const EthV2Protocol = {
   votingController: '0x44087E105137a5095c008AaB6a6530182821F2F0',
   gaugeController: '0x47D74516B33eD5D70ddE7119A40839f6Fcc24e57',
   feeDistributor: '0xd7b34a6fDCb2A7ceD2115FF7f5fdD72aa6aA4dE2',
+  multicall3p: '0xB782C60C9e27Dd66b8b63e3694B45D8636d2d202'
 };
