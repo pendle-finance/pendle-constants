@@ -29,9 +29,7 @@ export interface FraxUSDCCurveLpConvexMarketConstsType
 export interface LooksStakingMarketConstsType extends V2MarketConstsType {
   STAKING_CONTRACT: string;
 }
-
-export interface BalancerLPAuraMarketConstsType
-  extends V2MarketConstsType {
+export interface BalancerLPAuraMarketConstsType extends V2MarketConstsType {
   AURA_BOOSTER: string;
   AURA_TOKEN: string;
   BALANCER_VAULT: string;
