@@ -13,5 +13,5 @@ export const EthV2Markets = {
   rethWethBalancerLPAuraDec28: RethWethBalancerLPAuraDec28Consts,
   stethJun29: StethJun29Consts,
   stethMar30: StethMar30Consts,
-  wstEthJune2724: WstEthWethBalancerLPAuraDec28Consts
+  wstEthJune2724: WstEthWethBalancerLPAuraDec28Consts,
 };
