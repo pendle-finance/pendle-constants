@@ -1,7 +1,7 @@
 import { BigNumber as BN } from 'ethers';
-import { RethWethBalancerLPAuraMarketConstsType } from '../../types';
+import { BalancerLPAuraMarketConstsType } from '../../types';
 
-export const RethWethBalancerLPAuraDec28Consts: RethWethBalancerLPAuraMarketConstsType = {
+export const RethWethBalancerLPAuraDec28Consts: BalancerLPAuraMarketConstsType = {
   name: 'SY rETH-WETH_BalancerLP Aura',
   SY: '0xdf7083f2A0F8a191ab5eEAFebE92ED21cD3Dd915',
   YT: '0x0F28A763198035825dFAdF3455cB5b8473a7c140',
