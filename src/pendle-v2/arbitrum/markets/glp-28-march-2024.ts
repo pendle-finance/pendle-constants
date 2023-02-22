@@ -1,0 +1,28 @@
+import { GlpMarketConstsType } from '../../types';
+
+import { BigNumber as BN } from 'ethers';
+
+const GLP = '0x4277f8f2c384827b5273592ff7cebd9f2c1ac258';
+const FSGLP = '0x1addd80e6039594ee970e5872d247bf0414c8903';
+const REWARD_ROUTER = '0xA906F338CB21815cBc4Bc87ace9e68c87eF8d8F1';
+const GLP_ROUTER = '0xb95db5b167d75e6d04227cfffa61069348d271f5';
+const VAULT = '0x489ee077994b6658eafa855c308275ead8097c4a';
+const sGLP = '0x5402B5F40310bDED796c7D0F3FF6683f5C0cFfdf';
+
+export const Glp28March2024Consts: GlpMarketConstsType = {
+  name: 'SY GLP',
+  SY: '0x2066a650AF4b6895f72E618587Aad5e8120B7790',
+  YT: '0x56051f8e46b67b4d286454995dbc6f5f3c433e34',
+  PT: '0x96015d0fb97139567a9ba675951816a0bb719e3c',
+  underlying: '0x4277f8f2c384827b5273592ff7cebd9f2c1ac258',
+  market: '0x7D49E5Adc0EAAD9C027857767638613253eF125f',
+  expiry: BN.from(1711584000),
+  scalarRoot: BN.from('10484880000000000000'),
+  initAnchor: BN.from('1285295000000000000'),
+  GLP,
+  FEE_STAKING_GLP: FSGLP,
+  REWARD_ROUTER,
+  GLP_ROUTER,
+  VAULT,
+  STAKED_GLP: sGLP,
+};
