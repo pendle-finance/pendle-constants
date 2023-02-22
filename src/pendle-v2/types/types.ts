@@ -37,4 +37,13 @@ export interface BalancerLPAuraMarketConstsType extends V2MarketConstsType {
   BAL_LP: string;
 }
 
+export interface GlpMarketConstsType extends V2MarketConstsType {
+  GLP: string;
+  FEE_STAKING_GLP: string;
+  REWARD_ROUTER: string;
+  GLP_ROUTER: string;
+  VAULT: string;
+  STAKED_GLP: string;
+}
+
 export interface StethMarketConstsType extends V2MarketConstsType {}
