@@ -14,4 +14,5 @@ export const ArbiV2PRotocol = {
   receiverEndpoint: '0xC9215ae9EC67385F38C755D862C8eE3702B5793A',
   gaugeController: '0x1e56299ebc8a1010cec26005d12e3e5c5cc2db00',
   pendleMulticall: '0x05d0Ea1dBFA239f9fBC47E306e850Ce971Fe632d',
+  pendleSwap: '0x0E669e08bd717d7F9c9DE158636BD8561295fbB5',
 };

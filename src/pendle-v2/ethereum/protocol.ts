@@ -18,4 +18,5 @@ export const EthV2Protocol = {
   gaugeController: '0x47D74516B33eD5D70ddE7119A40839f6Fcc24e57',
   feeDistributor: '0xd7b34a6fDCb2A7ceD2115FF7f5fdD72aa6aA4dE2',
   pendleMulticall: '0x0e7cacc6c2a22aa2d97a42a8c82edaf9f9eac259',
+  pendleSwap: '0x9660AC0cB085F8Fb39a6F383cF2067785364f924',
 };
