@@ -8,6 +8,11 @@ export const ArbiV2PRotocol = {
   marketFactory: '0xf5a7De2D276dbda3EEf1b62A9E718EFf4d29dDC8',
   router: {
     address: '0x0000000001e4ef00d069e71d6ba041b0a16f7ea0',
+    actionAddRemoveLiq: '0xFc0617465474a6b1CA0E37ec4E67B3EEFf93bc63',
+    actionMintRedeem: '0xf7A646fe5EBa40A2619b894f3D85d682198b99bf',
+    actionSwapPt: '0x55F3474b876aaE57B8988C164c574348451b9A39',
+    actionSwapYt: '0x0c6981Ada752AF1cCF8F48bCf723286dCcde3166',
+    actionMisc: '0x0fB9eCfd253dd9090BbCeE6E0beCE971c50aDf4A',
   },
   routerStatic: '0x4106FC9811a792130502Bb3A5b693894cca7bD8e',
   vePendle: '0x3209E9412cca80B18338f2a56ADA59c484c39644',
@@ -15,4 +20,5 @@ export const ArbiV2PRotocol = {
   gaugeController: '0x1e56299ebc8a1010cec26005d12e3e5c5cc2db00',
   pendleMulticall: '0x05d0Ea1dBFA239f9fBC47E306e850Ce971Fe632d',
   pendleSwap: '0x0E669e08bd717d7F9c9DE158636BD8561295fbB5',
+  addressProvider: '0xb741932d85ca750c9b4fd902d307d2a67a88d936',
 };

@@ -10,6 +10,11 @@ export const EthV2Protocol = {
   bulkSellerOffchain: '0x9ACc60F915dFcd190D270fc92567aE71776bd320',
   router: {
     address: '0x0000000001e4ef00d069e71d6ba041b0a16f7ea0',
+    actionAddRemoveLiq: '0xFc0617465474a6b1CA0E37ec4E67B3EEFf93bc63',
+    actionMintRedeem: '0xf7A646fe5EBa40A2619b894f3D85d682198b99bf',
+    actionSwapPt: '0x55F3474b876aaE57B8988C164c574348451b9A39',
+    actionSwapYt: '0x0c6981Ada752AF1cCF8F48bCf723286dCcde3166',
+    actionMisc: '0x0fB9eCfd253dd9090BbCeE6E0beCE971c50aDf4A',
   },
   routerStatic: '0xcF45b92cd0B0859FC42a767fAac2354909f937e9',
   vePendle: '0x4f30A9D41B80ecC5B94306AB4364951AE3170210',
@@ -19,4 +24,5 @@ export const EthV2Protocol = {
   feeDistributor: '0xd7b34a6fDCb2A7ceD2115FF7f5fdD72aa6aA4dE2',
   pendleMulticall: '0x0e7cacc6c2a22aa2d97a42a8c82edaf9f9eac259',
   pendleSwap: '0x9660AC0cB085F8Fb39a6F383cF2067785364f924',
+  addressProvider: '0xb741932d85ca750c9b4fd902d307d2a67a88d936',
 };
