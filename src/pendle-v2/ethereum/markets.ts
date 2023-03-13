@@ -1,3 +1,4 @@
+import { AnkrWethBalancerLPAuraMarch282024Consts } from './markets/ankreth-weth-balancerlp-aura-march28-2024-consts';
 import { ApeJun29Consts } from './markets/ape-jun29-consts';
 import { FraxUSDCCurveLpConvexMar30Consts } from './markets/fraxusdc-curvelp-convex-mar30-consts';
 import { LooksStakingMar30Consts } from './markets/looks-staking-mar30-consts';
@@ -14,4 +15,5 @@ export const EthV2Markets = {
   stethJun29: StethJun29Consts,
   stethMar30: StethMar30Consts,
   wstEthJune2724: WstEthWethBalancerLPAuraDec28Consts,
+  ankrEthMarch2824: AnkrWethBalancerLPAuraMarch282024Consts,
 };
