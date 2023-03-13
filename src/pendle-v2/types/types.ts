@@ -30,11 +30,7 @@ export interface LooksStakingMarketConstsType extends V2MarketConstsType {
   STAKING_CONTRACT: string;
 }
 export interface BalancerLPAuraMarketConstsType extends V2MarketConstsType {
-  AURA_BOOSTER: string;
-  AURA_TOKEN: string;
-  BALANCER_VAULT: string;
-  AURA_REWARD_MANAGER: string;
-  BAL_LP: string;
+  AURA_PID: number;
 }
 
 export interface GlpMarketConstsType extends V2MarketConstsType {
