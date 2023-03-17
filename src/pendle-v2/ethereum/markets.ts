@@ -8,6 +8,7 @@ import { StethMar30Consts } from './markets/steth-mar30-consts';
 import { WstEthWethBalancerLPAuraDec28Consts } from './markets/wsteth-weth-balancerlp-aura-jun27-2024-consts';
 
 export const EthV2Markets = {
+  ankrEthWethBalancerLPAuraMar28: AnkrEthWethBalancerLPAuraMar28Consts,
   apeJun29: ApeJun29Consts,
   fraxUSDCCurveLpConvexMar30: FraxUSDCCurveLpConvexMar30Consts,
   looksStakingMar30: LooksStakingMar30Consts,
@@ -15,5 +16,4 @@ export const EthV2Markets = {
   stethJun29: StethJun29Consts,
   stethMar30: StethMar30Consts,
   wstEthJune2724: WstEthWethBalancerLPAuraDec28Consts,
-  ankrEthWethBalancerLPAuraMar28: AnkrEthWethBalancerLPAuraMar28Consts,
 };
