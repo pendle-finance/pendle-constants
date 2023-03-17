@@ -29,7 +29,5 @@ export const CommonConsts: CommonConstsType = {
   LIQ_MINING_VESTING_EPOCHS: BN.from(5),
   LOCK_NUMERATOR: BN.from(1),
   LOCK_DENOMINATOR: BN.from(360),
-  INTEREST_UPDATE_RATE_DELTA_FOR_MARKET: BN.from(2)
-    .pow(40)
-    .div(10000),
+  INTEREST_UPDATE_RATE_DELTA_FOR_MARKET: BN.from(2).pow(40).div(10000),
 };

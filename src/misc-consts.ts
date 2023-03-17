@@ -4,9 +4,7 @@ export const MiscConsts = {
   RONE: BN.from(2).pow(40),
   ONE_E_12: BN.from(10).pow(12),
   ONE_E_18: BN.from(10).pow(18),
-  INF: BN.from(2)
-    .pow(256)
-    .sub(1),
+  INF: BN.from(2).pow(256).sub(1),
   ZERO_BYTES: utils.formatBytes32String(''),
   ZERO_ADDRESS: '0x0000000000000000000000000000000000000000',
   DUMMY_ADDRESS: '0xDEADbeEfEEeEEEeEEEeEEeeeeeEeEEeeeeEEEEeE',
