@@ -16,8 +16,8 @@
     "start": "tsdx watch",
     "build": "tsdx build",
     "lint": "tsdx lint src",
-    "prepare": "yarn build",
-    "format": "yarn prettier --write **/**/*.{js,ts}"
+    "format": "yarn prettier --write **/**/*.{js,ts}",
+    "prepare": "yarn lint && yarn format && yarn build"
   },
   "husky": {
     "hooks": {
