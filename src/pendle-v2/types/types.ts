@@ -42,4 +42,8 @@ export interface GlpMarketConstsType extends V2MarketConstsType {
   STAKED_GLP: string;
 }
 
+export interface GDAIMarketConstsType extends V2MarketConstsType {
+  GDAI: string;
+}
+
 export interface StethMarketConstsType extends V2MarketConstsType {}
